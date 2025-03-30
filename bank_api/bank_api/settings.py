@@ -38,11 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Your app
-    'banks',  # Ensure this is included
+    'banks'
     'branch',
-    'graphene_django',  # If using GraphQL
+    'graphene_django',  
 ]
 
 

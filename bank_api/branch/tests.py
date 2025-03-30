@@ -4,7 +4,7 @@ from bank_api.schema import schema
 from branch.models import Branch
 from banks.models import Bank
 
-@pytest.mark.django_db  # Use the database for testing
+@pytest.mark.django_db 
 class TestBranchQuery:
 
     @pytest.fixture

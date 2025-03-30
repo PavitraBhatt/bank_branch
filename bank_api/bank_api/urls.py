@@ -19,9 +19,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from graphene_django.views import GraphQLView
-from bank_api.schema import schema  # Import the schema
+from bank_api.schema import schema   
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("gql/", GraphQLView.as_view(graphiql=True, schema=schema)),  # Ensure this line exists
+    path("gql/", GraphQLView.as_view(graphiql=True, schema=schema)), 
 ]

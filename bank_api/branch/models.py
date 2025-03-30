@@ -7,7 +7,7 @@ class Branch(models.Model):
     bank = models.ForeignKey(Bank, related_name="branches", on_delete=models.CASCADE)
     branch = models.CharField(max_length=255)
     ifsc = models.CharField(max_length=20)
-    address = models.TextField(default="Unknown")  # Default value added
+    address = models.TextField(default="Unknown") 
     city = models.CharField(max_length=100, default="Unknown")
     district = models.CharField(max_length=100, default="Unknown")
     state = models.CharField(max_length=100, default="Unknown")
