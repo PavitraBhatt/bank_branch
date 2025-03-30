@@ -1,4 +1,3 @@
-Branch Service - README
 📌 Project Overview
 The Branch Service is a GraphQL-based Django application that allows querying bank branches along with their related bank details. The application uses raw SQL queries for optimized performance and flexibility when retrieving data from the PostgreSQL database.
 
